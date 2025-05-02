@@ -2,9 +2,9 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY app.py .
-COPY templates/ templates/
-COPY static/ static/
+COPY Task2/app/app.py .
+COPY Task2/app/templates/ templates/
+COPY Task2/app/static/ static/
 
 RUN pip install flask
 
